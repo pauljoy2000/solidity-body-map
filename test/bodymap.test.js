@@ -28,7 +28,6 @@ describe('Bodymap', () =>
     it('deploys', () => 
     {
         assert.ok(deployedBodyMapContracts.options.address);
-        console.log(deployedBodyMapContracts.options.address);
     })
 
     it('changes bodymap', async () => 
